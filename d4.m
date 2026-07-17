@@ -312,7 +312,7 @@ function d4_remove(f,root,gens,RB,RG,QA)
       end if;
      end if;
    end for;
-   // break; // Why was there this break here? Commented on July 17, 2026
+   // break; // Why was this break here? Commented on July 17, 2026 (works for the provided minimal example, but risky in general)
   end if;
 // --- end block 1 ---
 
